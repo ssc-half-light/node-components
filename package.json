@@ -44,5 +44,9 @@
     "typescript"
   ],
   "author": "nichoth <nichoth@gmail.com> (https://nichoth.com)",
-  "license": "AGPL-3.0-or-later"
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "@oddjs/odd": "^0.37.0",
+    "localforage": "^1.10.0"
+  }
 }
