@@ -8,5 +8,5 @@ test('components', async t => {
         debug: true
     }, components)
 
-    t.ok(program, 'create program')
+    t.ok(program, 'should create a program')
 })
