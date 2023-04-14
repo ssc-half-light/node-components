@@ -1,5 +1,12 @@
+import { components } from '../dist/index.js'
+import * as odd from '@oddjs/odd'
 import { test } from 'tapzero'
 
-test('example', async t => {
-    t.ok('ok', 'should be an example')
+test('components', async t => {
+    const program = odd.assemble({
+        namespace: { creator: 'test', name: 'testing' },
+        debug: true
+    }, components)
+
+    t.ok(program, 'create program')
 })
