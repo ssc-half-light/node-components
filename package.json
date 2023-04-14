@@ -1,5 +1,5 @@
 {
-  "name": "@nichoth/template-ts",
+  "name": "@ssc-hermes/node-components",
   "type": "module",
   "description": "A template for typescript *dependency* modules.",
   "version": "0.0.0",
