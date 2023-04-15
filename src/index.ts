@@ -111,6 +111,7 @@ const depot: Depot.Implementation = {
         return Promise.resolve(data)
     },
     getUnixFile: (cid: CID) => depot.getBlock(cid),
+    // @ts-ignore
     getUnixDirectory: async (cid: CID) => {
         const dag = DagPB.decode(await depot.getBlock(cid))
 
