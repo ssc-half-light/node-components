@@ -18,7 +18,7 @@ npm test
 import { components } from '@ssc-hermes/node-components'
 import * as odd from '@oddjs/odd'
 
-const program = odd.assemble({
+const program = await odd.assemble({
     namespace: { creator: 'test', name: 'testing' },
     debug: true
 }, components)

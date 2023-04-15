@@ -3,7 +3,7 @@ import * as odd from '@oddjs/odd'
 import { test } from 'tapzero'
 
 test('components', async t => {
-    const program = odd.assemble({
+    const program = await odd.assemble({
         namespace: { creator: 'test', name: 'testing' },
         debug: true
     }, components)
