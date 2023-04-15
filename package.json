@@ -48,5 +48,16 @@
   "dependencies": {
     "@oddjs/odd": "^0.37.0",
     "localforage": "^1.10.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssc-hermes/node-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ssc-hermes/node-components/issues"
+  },
+  "homepage": "https://github.com/ssc-hermes/node-components#readme"
 }
