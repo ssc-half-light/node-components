@@ -1,6 +1,11 @@
 # template ts
 Components for node js
 
+## install
+```
+npm install @ssc-hermes/node-components
+```
+
 ## test this
 Run them separately because there is a type error in `index.ts`.
 
