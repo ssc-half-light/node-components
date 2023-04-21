@@ -1,5 +1,5 @@
-# template ts
-Components for node js
+# node components
+Components for node js, so you can run tests in node
 
 ## install
 ```
