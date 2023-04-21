@@ -20,6 +20,6 @@ import * as odd from '@oddjs/odd'
 
 const program = await odd.assemble({
     namespace: { creator: 'test', name: 'testing' },
-    debug: true
+    debug: false  // must be false
 }, components)
 ```
