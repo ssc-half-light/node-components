@@ -1,7 +1,7 @@
 {
   "name": "@ssc-hermes/node-components",
   "type": "module",
-  "description": "A template for typescript *dependency* modules.",
+  "description": "`odd` components for Node environment, mostly for testing",
   "version": "0.0.5",
   "main": "src/index.ts",
   "scripts": {
