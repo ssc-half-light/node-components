@@ -3,7 +3,7 @@ Components for node js, so you can run tests in node
 
 ## install
 ```
-npm install @ssc-hermes/node-components
+npm install -D @ssc-hermes/node-components
 ```
 
 ## test this
