@@ -2,7 +2,7 @@
   "name": "@ssc-hermes/node-components",
   "type": "module",
   "description": "`odd` components for Node environment, mostly for testing",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "main": "src/index.ts",
   "scripts": {
     "lint": "standardx -v \"./**/*.ts\"",
