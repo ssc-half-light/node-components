@@ -227,7 +227,8 @@ const components = {
 }
 
 export {
-    components
+    components,
+    createCryptoComponent
 //     auth,
 //     capabilities,
 //     crypto,
