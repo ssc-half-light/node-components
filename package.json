@@ -12,9 +12,11 @@
     "build": "mkdir -p ./dist && rm -rf ./dist/* && tsc",
     "preversion": "npm run lint",
     "postversion": "git push && git push --tags && export $(cat .env | xargs) && npm publish",
-    "//postversion": "git push && git push --tags && export $(cat .env | xargs) && npm run pub",
-    "prepublishOnly": "npm run build",
-    "pub": "npm publish --registry=https://registry.npmjs.org && export $(cat .env | xargs) && npm publish --registry https://npm.pkg.github.com"
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@oddjs/odd": "^0.37.0",
+    "localforage": "^1.10.0"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^5.55.0",
@@ -41,7 +43,7 @@
       ]
     }
   },
-  "//publishConfig": {
+  "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
@@ -50,10 +52,6 @@
   ],
   "author": "nichoth <nichoth@gmail.com> (https://nichoth.com)",
   "license": "AGPL-3.0-or-later",
-  "dependencies": {
-    "@oddjs/odd": "^0.37.0",
-    "localforage": "^1.10.0"
-  },
   "directories": {
     "test": "test"
   },
