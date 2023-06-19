@@ -47,8 +47,10 @@
     "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
-    "template",
-    "typescript"
+    "fission",
+    "odd",
+    "test",
+    "components"
   ],
   "author": "nichoth <nichoth@gmail.com> (https://nichoth.com)",
   "license": "AGPL-3.0-or-later",
