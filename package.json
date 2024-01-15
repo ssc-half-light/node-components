@@ -2,7 +2,7 @@
   "name": "@ssc-half-light/node-components",
   "type": "module",
   "description": "`odd` components for Node environment, mostly for testing",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "main": "src/index.ts",
   "scripts": {
     "lint": "standardx -v \"./**/*.ts\"",
