@@ -1,5 +1,5 @@
 {
-  "name": "@ssc-hermes/node-components",
+  "name": "@ssc-half-light/node-components",
   "type": "module",
   "description": "`odd` components for Node environment, mostly for testing",
   "version": "0.1.14",
