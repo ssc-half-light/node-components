@@ -208,14 +208,6 @@ const auth: Auth.Implementation<Components> = WnfsAuth.implementation({
     crypto, reference, storage
 })
 
-// export const username = 'test'
-// export const account = {
-//     rootDID: await reference.didRoot.lookup(username),
-//     username
-// }
-
-// // 🛳
-
 const components = {
     auth,
     capabilities,
