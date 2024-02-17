@@ -59,10 +59,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ssc-hermes/node-components.git"
+    "url": "git+https://github.com/ssc-half-light/node-components.git"
   },
   "bugs": {
-    "url": "https://github.com/ssc-hermes/node-components/issues"
+    "url": "https://github.com/ssc-half-light/node-components/issues"
   },
-  "homepage": "https://github.com/ssc-hermes/node-components#readme"
+  "homepage": "https://github.com/ssc-half-light/node-components#readme"
 }
